@@ -8,3 +8,50 @@
     margin: 0;
     font-family: "Work Sans", sans-serif;
 }
+
+/* shared styles */
+.bg-light{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* dark 02 */
+.text-gray{
+    color: #424242; ;
+}
+
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+}
+
+.brand{
+    font-size: 45px;
+     padding-top: 50px;
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+     padding-top: 63px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar, .banner{
+    width: 1440px;
+    margin: 0 auto;
+}
