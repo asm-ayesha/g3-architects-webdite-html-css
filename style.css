@@ -61,12 +61,15 @@
     margin-right: 30px;
 }
 
-.navbar, .banner{
+/* .navbar, .banner{
     width: 1440px;
     margin: 0 auto;
-}
+} */
 
 /* banner section styles */
+.banner{
+    margin: 0 auto;
+}
 .banner-content{
     max-width: 850px;
     margin: 0 auto;
@@ -89,6 +92,7 @@ letter-spacing: 0%;
 margin: 20px 0;
 }
 
-.banner-img{
+.banner-image{
     width: 100%;
+    margin: 0 auto;
 }
