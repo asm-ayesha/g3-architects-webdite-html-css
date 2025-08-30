@@ -44,7 +44,6 @@
 .navbar{
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
 }
 
 .brand{
@@ -61,15 +60,13 @@
     margin-right: 30px;
 }
 
-/* .navbar, .banner{
-    width: 1440px;
-    margin: 0 auto;
-} */
-
-/* banner section styles */
-.banner{
+.navbar, .banner{
+    max-width: 1440px;
     margin: 0 auto;
 }
+
+/* banner section styles */
+
 .banner-content{
     max-width: 850px;
     margin: 0 auto;
@@ -92,7 +89,6 @@ letter-spacing: 0%;
 margin: 20px 0;
 }
 
-.banner-image{
-    width: 100%;
-    margin: 0 auto;
-}
+ .banner-image{
+      width: 100%;
+    }
