@@ -5,6 +5,10 @@
         flex-direction: column;
     }
 
+    .banner-title{
+        font-size: 3rem;
+    }
+
     .teams {
         flex-direction: column-reverse;
     }
@@ -15,7 +19,7 @@
     }
 
     .our-feature {
-        margin-left: 20px;
+        margin-left: 0;
         text-align: center;
     }
 
@@ -25,4 +29,15 @@
 
 
 
+}
+
+/* medium device responsive*/
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+    
+    .our-feature{
+        margin: 50px auto;
+    }
 }
