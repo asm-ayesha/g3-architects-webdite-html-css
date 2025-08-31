@@ -34,10 +34,18 @@
 /* medium device responsive*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .teams{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
-    .our-feature{
-        margin: 50px auto;
+    .our-feature {
+        width: 100%;        
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
     }
+
+    .feature-btn {
+        margin-bottom: 32px;
+    }
+
 }

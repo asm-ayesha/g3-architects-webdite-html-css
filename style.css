@@ -53,6 +53,9 @@ main>section {
 
 }
 
+.section-title {
+    font-size: 3rem;
+}
 
 /* navbar related styles */
 .navbar {
@@ -131,7 +134,7 @@ main>section {
     font-weight: 500;
 }
 
-.feature-title {
+.section-title {
     font-size: 3rem;
 }
 
