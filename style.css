@@ -173,7 +173,7 @@ main>section {
 .feature-title {
     font-weight: 600;
     font-size: 1.25rem;
-    margin: 30px 0 10px;
+    margin-bottom:10px;
 }
 
 #experience-bdge {
@@ -188,6 +188,11 @@ main>section {
     font-size: 4rem;
     font-weight: 700;
 }
+
+ .feature-architect img {
+        width: 100%;
+    }
+
 
 /* some fact related styles */
 .facts-container {

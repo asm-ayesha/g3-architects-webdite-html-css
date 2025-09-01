@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .features {
         flex-direction: column;
     }
 
@@ -19,13 +20,19 @@
         grid-template-columns: 1fr;
     }
 
+   
+    #experience-bdge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
     .facts-container {
         justify-items: center;
         gap: 24px;
     }
 
     .our-feature,
-    .fact-content{
+    .fact-content {
         margin-left: 0;
         text-align: center;
     }
@@ -46,6 +53,10 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .teams {
         flex-direction: column-reverse;
+    }
+
+    .features{
+        flex-direction: column;
     }
 
     .our-feature {
@@ -72,6 +83,11 @@
 
     .fact-content {
         justify-items: center;
+    }
+
+     #experience-bdge{
+        margin-top: 20px;
+       margin-left: 200px;
     }
 
 }
