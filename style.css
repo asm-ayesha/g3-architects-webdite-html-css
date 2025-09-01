@@ -127,7 +127,7 @@ main>section {
 
 .our-feature {
     margin-left: 130px;
-    width: 530px;
+    max-width: 530px;
 }
 
 #quick-list {
@@ -195,5 +195,6 @@ main>section {
 }
 
 .sponspors-container img{
+   max-width: 100%;
     filter: grayscale(100%);
 }
