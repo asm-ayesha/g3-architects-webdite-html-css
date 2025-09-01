@@ -177,11 +177,23 @@ main>section {
 
 }
 
-/* .card{
-    margin: 10px;
-} */
-
-#fact-description{
+#fact-description, #sponspors-description{
     max-width: 540px;
     margin: 24px 0 40px 0;
+}
+
+/* sponspors related styles */
+.sponspors-content{
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponspors-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.sponspors-container img{
+    filter: grayscale(100%);
 }
